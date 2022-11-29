@@ -30,15 +30,8 @@ for mac in solmenu:
 
   Dict[kod]= {"kod":kod,"saat":saat,"ev_sahibi" :ev_sahibi +misafir , "ms1":ms1 ,"ms0":ms0, "ms2":ms2}
 
-
-
-
-
-
-
-
 def index(request):
-  print(Dict)
+  
 
   template = loader.get_template('anasayfa.html')
   context = {
